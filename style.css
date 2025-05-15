@@ -1,117 +1,138 @@
+
+
+---------- Forwarded message ---------
+De: THALISON GABRIEL SIQUEIRA JACOMOSSI <jacomossi.thalison@escola.pr.gov.br>
+Date: qui., 15 de mai. de 2025 às 10:53
+Subject: Fwd: style
+To: ANA CAROLINE DE LIMA MICHALICHEN <lima.michalichen@escola.pr.gov.br>
+
+
+
+
+---------- Forwarded message ---------
+De: KEVIN RENATO PAULUK <kevin.pauluk@escola.pr.gov.br>
+Date: qui., 8 de mai. de 2025 às 11:08
+Subject: style
+To: THALISON GABRIEL SIQUEIRA JACOMOSSI <jacomossi.thalison@escola.pr.gov.br>
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
-
 :root {
-   --laranja-claro: #ff8528; /*define uma variavel css para a cor laranja*/
+    --laranja-claro: #FF862A; /*define uma variavel CSS para cor laranja*/
 }
-
 
 body{
-   font-size:1rem; /*Define o tamanho da fonte da base*/
-   font-family: 'Montserrat' ;/*Define o tamanho da fonte principal do site*/
+    font-size: 16px; /*definir o tamanho da fonte base*/
+    font-family: 'montserrat';/*define o tamanho da fonte principal do site*/
 }
 
+  /*Estilo do Cabeçalho*/
 
-/*Estilo do cabeçalho*/
-
-
-header{
-   background-color: white;
+  header {
+    background-color: #ffffff;/* Fundo branco para o cabeçalho*/
+  }
+  section {
+    padding-bottom: 5rem;
+  }
+  .nav-link{
+    color:#CB6D43;
+    font-weight: 600;
+  }
+  .inicio-fundo {
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width:100% ;
+    height:606px;
+    padding: 40px;
+    margin: 0 auto;
 }
-section {
- padding-bottom: 5rem;
-}
-.nav-link{
-  color: #cb6d43;
-  font-weight: 600;
-}
-,inicio-fundo{
-  background-image: url('img/4965007.jpg');
-  background-size: cover;
-  background-position: right;
-  border-radius: 80px;
-  width:100% ;
-  height: 600px;
-  padding: 40px;
-  margin: 0 auto;
-}
-/*posicionamento para a imagem a direita*/
+/*posicionamento para a imagem à direita */
 .img-inicio {
-position: absolute;
-right: 0;
-top:18rem;
-width:45rem;
-height: auto;
+    position: absolute;
+    right: 0;
+    top:18rem;
+    width:45rem;
+    height: auto;
 }
 .esquerda-conteudo {
-  display: flex;
-  flex-direction: flex-start;
-  gap:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1rem;
 }
-
-
 .botao-inicio {
-    background-color: var(--laranja-claro);
-border radius:30px;
-border:none;
-width: 14em;
- /*convertido para em aumenta o tamanho da fonte por tabela*/
- height:3em;
- /*convertido para em*/
- align-content:center
+   background-color:  var(--laranja-claro);
+   border-radius: 30px;
+   border: none;
+   width: 14em;
+   /*convertido para "em" aumenta o tamanho da fonte por tabela*/
+   height: 3em;
+   /*convertido para "em"*/
+   align-content: center;
 }
 .display-4{
-    text-shandow: -5px 5; var(--laranja-claro);
-    }
-    #tropicalia{
-        position: relative;
-        padding-top: 5rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        background: url('img/flor.png')top right no-repeat
-        url('img/flor-esquerda.png') bottom left no-repeat
-       background-size: 180px 180px;
-       /*ajuste o tamanho comforme o necessário*/
-       {
-        #tropicalia {
-            position: relative;
-            padding-top: 5rem;
-            margin-top: 3rem;
-            margin-bottom: 3rem;
-            background: url('img/flor.png') top right no-repeat,
-            url('img/flor-esquerda.png') bottom left no-repeat;
-            background-size: 180px 180px;
-          }
-          #tropicalia.container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            z-index: 1;
-          }
-          
-          
-          h2 {
-            font-family: 'Lemon,'serif;
-            font-size: 2.5em;
-            font-style: normal;
-            color: var(--laranja-claro);
-          }
-          
-          
-          #galeria {
-            background-color: #faf4f4;
-          }
-          .fundo-galeria {
-            background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-          }
-          #contato {
-            background-image: url(img/4965007.jpg);
-            background-size: cover;
-            padding: 4rem 0;
-          }
-          .formulario {
-            background-color: #ffffff;
-          }
-         background-color:#ffffff
+  text-shadow: -5px 5px var(--laranja-claro);
+}
+
+#tropicalha {
+  position: relative;
+  padding-top: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background: url('img/flor.png') top right no-repeat, 
+  url('img/flor-esquerda.png') bottom left no-repeat;
+  background-size: 180px 180px;
+  /*Ajuste o tamanho conforme necessário*/
+}
+#tropicalha.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1; 
+}
+
+h2 {
+  font-family: 'Lemon', serif;
+  font-size: 2.5em;
+  font-style: normal;
+  color: var(--laranja-claro);
+}
+
+#galeria {
+  background-color: #FAF4F4;
+}
+
+.fundo-galeria {
+  background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+  background-size: 180px 180px;
+}
+
+#contato {
+  background-image: url('img/4965007.jpg');
+  background-size: cover;
+  padding: 4rem 0;
+  /*Espaçamento interno para a seção de contato*/
+}
+.formulario {
+  background-color: #ffffff;padding: 2rem;
+  /*Espaçamento interno para o formulario*/
+  border-radius: 10px;
+  /*Borda arredondada para o formulario*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /*sombra suave para destacar o formulario*/
+  font-weight: bold;
+}
+.formulario button {
+  background-color: #CB6D43;
+  border: none;
+  font-weight: bold;
+}
+/*chama classe do bootstrap para modificar a cor*/
+.form-control {
+  background-color: #F1EDEF;
+}
